@@ -1,4 +1,4 @@
-package com.nighttwo1.launchme.di
+package com.nighttwo1.data.module
 
 import dagger.Module
 import dagger.hilt.InstallIn

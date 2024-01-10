@@ -1,8 +1,8 @@
-package com.nighttwo1.launchme.di
+package com.nighttwo1.data.module
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import com.nighttwo1.data.BuildConfig
 import com.nighttwo1.data.service.ApiService
-import com.nighttwo1.launchme.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

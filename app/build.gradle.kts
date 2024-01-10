@@ -9,9 +9,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-val properties = Properties()
-properties.load(project.rootProject.file("local.properties").inputStream())
-
 android {
     namespace = "com.nighttwo1.launchme"
     compileSdk = 34
@@ -25,8 +22,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
-
-        buildConfigField("String", "API_BASE_URL", properties["api_base_url"].toString())
     }
     buildTypes {
         getByName("release") {
