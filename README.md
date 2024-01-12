@@ -1,5 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/v/release/nighttwo1/android-base-project)]()
 [![Github All Releases](https://img.shields.io/github/downloads/nighttwo1/android-base-project/total.svg)]()
-
 # Multi-module Base project for Android
 base project for android clean architecture, mvvm and multi-module
 
